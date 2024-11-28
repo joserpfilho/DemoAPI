@@ -18,9 +18,8 @@ if (app.Environment.IsDevelopment())
     {
         options
             .WithTitle("Demo API")
-            .WithTheme(ScalarTheme.BluePlanet)
+            .WithTheme(ScalarTheme.Kepler)
             .WithDefaultHttpClient(ScalarTarget.CSharp, ScalarClient.HttpClient);
-
     });
 }
 
